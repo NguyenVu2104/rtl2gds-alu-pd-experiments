@@ -1,0 +1,8 @@
+Cell type report:                       Count       Area
+  Fill cell                              2235   11827.59
+  Tap cell                                280     350.34
+  Antenna cell                              2       5.00
+  Timing Repair Buffer                    114    1093.55
+  Inverter                                 91     341.58
+  Multi-Input combinational cell         1070    8070.24
+  Total                                  3792   21688.30
