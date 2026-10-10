@@ -266,3 +266,71 @@ In the LEF file, `fill_1` has `CLASS CORE SPACER` and the tapcell has `CLASS COR
 1. **What adds the last 4.385 µm² in 3_3?** The port buffers and the removed buffers explain +571.798 µm². `repair_design` explains +121.984 µm². Together this is 693.782 µm², but the real change is 698.167 µm². The log lines we have do not explain the last 4.385 µm².
 
 2. **Why does `report_design_area` skip fill cells?** Fill cells are `CORE SPACER` and tapcells are `CORE WELLTAP`. Tapcells are counted and fill cells are not. Does OpenROAD skip cells by class? We did not read the code, so we only know what the log shows.
+
+## 7. Q4: What happens if we remove the cause?
+
+We changed one thing at a time and compared with the baseline (`FLOW_VARIANT=base`).
+
+### Test A: no port buffers
+
+Variant `no_port_buffers`: `DONT_BUFFER_PORTS=1`. We ran the flow only up to `place` and compared with the baseline after stage 3_3.
+
+`DONT_BUFFER_PORTS=1` only stops `buffer_ports`, which adds the port buffers. `repair_design` is a different step. It can still insert buffers to fix slew and capacitance violations, so the line `RSZ-0038 Inserted 7 buffers in 4 nets` is not a port buffer.
+
+| | Design area (µm²) |
+|---|---:|
+| baseline | 9856 |
+| `no_port_buffers` | 8830 |
+| Change | about −1026 (−10.4%) |
+
+The log of the variant shows `RSZ-0026 Removed 97 buffers` and no `RSZ-0027` or `RSZ-0028` line. So the 97 synthesis buffers are removed and no port buffer is added.
+
+The drop comes from two parts:
+
+- The 100 port buffers are not added: −1000.96 µm² (100 × 10.0096).
+- `repair_design` adds less area: 98.951 µm² instead of 121.984 µm² (`GPL-0107`), which is 23.033 µm² less.
+
+`repair_design` in stage 3_3:
+
+| | baseline | `no_port_buffers` |
+|---|---:|---:|
+| Slew violations (`RSZ-0034`) | 7 | 4 |
+| Capacitance violations (`RSZ-0036`) | 4 | 4 |
+| Instances resized (`RSZ-0039`) | 7 | 4 |
+| Buffers inserted (`RSZ-0038`) | 9 in 7 nets | 7 in 4 nets |
+| Area added (`GPL-0107`) | 121.984 µm² | 98.951 µm² |
+
+The result is also lower than the area before 3_3 (9158 µm²). 9157.533 − 429.162 (97 synthesis buffers removed) + 98.951 = 8827.322, and the log says 8830. This is a gap of about 2 to 3 µm², similar to the 4.385 µm² in the baseline.
+
+Answer for Q4: the port buffers are the main cause of the area increase in stage 3_3. Without them the area is about 10.4% lower.
+
+We ran the flow only up to placement. So we do not know if routing becomes harder without port buffers. CTS is not affected, because the design has no clock.
+
+### Test B: ABC area script
+
+Variant `abc_area`: `ABC_AREA=1`. We ran only `synth`. This option makes Yosys use `abc_area.script` instead of `abc_speed.script`. ABC still runs; only the script is different.
+
+| | baseline (`abc_speed.script`) | `abc_area` (`abc_area.script`) |
+|---|---:|---:|
+| Chip area (µm²) | 8807.1968 | 9482.8448 |
+| Cells | 1258 | 1895 |
+| Buffers (cells / µm²) | 97 / 429.162 | 85 / 470.451 |
+| `nand2_1` | 112 | 557 |
+| `nand3_1` | 18 | 439 |
+| `inv_1` | 88 | 246 |
+| `mux4_2` | 43 | 0 |
+| `mux2i_1` | 50 | 0 |
+
+We expected the area to go down. It went up by 675.648 µm² (+7.67%).
+
+- The area script uses 637 more cells (+50.6%).
+- Buffers are not the cause. The number and area of buffers are about the same.
+- The area script builds the logic from many simple NAND, NOR, and inverter cells. It almost does not use complex cells (`mux4_2`, `mux2i_1`, `a2111oi`).
+- The `ha_1` and `fa_1` cells are the same in both runs.
+- The two scripts use different ABC commands. The speed script runs several rounds of `&st`, `&syn2`, `&if -g -K 6`, `&synch2`, and `&nf`. The area script runs `strash`, `dch`, and `map -B 0.9`.
+
+### Open questions from Q4
+
+1. Why are there 3 fewer slew violations (4 instead of 7) when the ports have no buffers?
+2. What does the design lose without port buffers? In this run we see no extra violations. But the SDC has no `set_driving_cell` and no `set_load`, so the ports look ideal to the tool.
+3. Why does the area script give more area? Which ABC command makes it avoid the complex cells?
