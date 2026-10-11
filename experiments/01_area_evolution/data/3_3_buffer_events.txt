@@ -1,6 +1,0 @@
-[INFO RSZ-0026] Removed 97 buffers.
-[INFO RSZ-0027] Inserted 68 sky130_fd_sc_hd__clkdlybuf4s50_1 input buffers.
-[INFO RSZ-0028] Inserted 32 sky130_fd_sc_hd__clkdlybuf4s50_1 output buffers.
-[INFO RSZ-0039] Resized 7 instances.
-[INFO RSZ-0038] Inserted 9 buffers in 7 nets.
-[INFO GPL-0107] Timing-driven: repair_design delta area: 121.984 um^2 (+1.16%)

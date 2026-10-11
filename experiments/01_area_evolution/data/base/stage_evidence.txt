@@ -1,0 +1,145 @@
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[INFO IFP-0107] Defining die area using utilization: 40.00% and aspect ratio: 1.
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[WARNING IFP-0028] Core area lower left (2.000, 2.000) snapped to (2.300, 2.720).
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[INFO IFP-0001] Added 54 rows of 321 site unithd.
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 152.385 152.385 ) um
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[INFO IFP-0101] Core BBox: (  2.300  2.720 ) ( 149.960 149.600 ) um
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[INFO IFP-0102] Core area:                        21688.301 um^2
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[INFO IFP-0103] Total instances area:              8807.197 um^2
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[INFO IFP-0104] Effective utilization:                0.406
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[INFO IFP-0105] Number of instances:                   1258
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:[INFO RSZ-0098] No setup violations found
+work/logs/sky130hd/alu32/base/2_1_floorplan.log:Design area 8807 um^2 41% utilization.
+work/logs/sky130hd/alu32/base/2_2_floorplan_macro.log:Design area 8807 um^2 41% utilization.
+work/logs/sky130hd/alu32/base/2_3_floorplan_tapcell.log:[INFO TAP-0005] Inserted 280 tapcells.
+work/logs/sky130hd/alu32/base/2_3_floorplan_tapcell.log:Design area 9158 um^2 42% utilization.
+work/logs/sky130hd/alu32/base/2_4_floorplan_pdn.log:[INFO PDN-0001] Inserting grid: grid
+work/logs/sky130hd/alu32/base/2_4_floorplan_pdn.log:Design area 9158 um^2 42% utilization.
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:[INFO GPL-0036] Movable instances area:       8807.197 um^2
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:[INFO GPL-0037] Total instances area:         9157.533 um^2
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:[INFO GPL-0035] Pin density area adjust:       997.178 um^2
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:[INFO GPL-0006] Number of instances:              1538
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:[INFO GPL-0017] Fixed instances area:          350.336 um^2
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:[INFO GPL-0018] Movable instances area:       9804.374 um^2
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:[INFO GPL-0019] Utilization:                    45.948 %
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:        0 |   0.9939 |  2.765130e+03 |   +0.00% |  8.76e-15 |      
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:[INFO GPL-1014] Final placement area: 9804.37 (+0.00%)
+work/logs/sky130hd/alu32/base/3_1_place_gp_skip_io.log:Design area 9158 um^2 42% utilization.
+work/logs/sky130hd/alu32/base/3_2_place_iop.log:[INFO PPL-0002] Number of I/O             100
+work/logs/sky130hd/alu32/base/3_2_place_iop.log:Design area 9158 um^2 42% utilization.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO RSZ-0026] Removed 97 buffers.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO RSZ-0027] Inserted 68 sky130_fd_sc_hd__clkdlybuf4s50_1 input buffers.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO RSZ-0028] Inserted 32 sky130_fd_sc_hd__clkdlybuf4s50_1 output buffers.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0036] Movable instances area:       9378.995 um^2
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0037] Total instances area:         9729.331 um^2
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0035] Pin density area adjust:      1157.883 um^2
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0006] Number of instances:              1541
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0017] Fixed instances area:          350.336 um^2
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0018] Movable instances area:      10536.878 um^2
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0019] Utilization:                    49.381 %
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:        0 |   0.9078 |  1.135860e+04 |   +0.00% |  1.18e-14 |      
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0100] Timing-driven iteration 1/2, virtual: false.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0101]    Iter: 240, overflow: 0.635, keep resizer changes at: 1, HPWL: 20962171
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:        0 |     +0.0% |       0 |       0 |             0 |      1428
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:    final |     +1.3% |       7 |       9 |             7 |         0
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO RSZ-0034] Found 7 slew violations.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO RSZ-0036] Found 4 capacitance violations.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO RSZ-0039] Resized 7 instances.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO RSZ-0038] Inserted 9 buffers in 7 nets.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:   Iter   |    Area   | Removed | Inserted |   Pins
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:        0 |     +0.0% |       0 |        0 |      1360
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:    final |     -0.0% |       9 |       14 |         0
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0106] Timing-driven: worst slack 1e+30
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[WARNING GPL-0102] Timing-driven: no slacks found. Timing-driven mode disabled.
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-0107] Timing-driven: repair_design delta area: 121.984 um^2 (+1.16%)
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-1011] Original area (um^2): 10536.88
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-1012] Total routability artificial inflation: 825.26 (+7.83%)
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:[INFO GPL-1014] Final placement area: 11607.35 (+10.16%)
+work/logs/sky130hd/alu32/base/3_3_place_gp.log:Design area 9856 um^2 45% utilization.
+work/logs/sky130hd/alu32/base/3_4_place_resized.log:Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+work/logs/sky130hd/alu32/base/3_4_place_resized.log:        0 |     +0.0% |       0 |       0 |             0 |      1442
+work/logs/sky130hd/alu32/base/3_4_place_resized.log:    final |     +0.0% |       0 |       0 |             0 |         0
+work/logs/sky130hd/alu32/base/3_4_place_resized.log:Design area 9856 um^2 45% utilization.
+work/logs/sky130hd/alu32/base/3_4_place_resized.log:Instance count before 1555, after 1555
+work/logs/sky130hd/alu32/base/3_5_place_dp.log:[INFO DPL-0006] Core area: 21688.30 um^2, Instances area: 9855.70 um^2, Utilization: 45.4%
+work/logs/sky130hd/alu32/base/3_5_place_dp.log:[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+work/logs/sky130hd/alu32/base/3_5_place_dp.log:Diamond Move Success:           1275 (100.00%)
+work/logs/sky130hd/alu32/base/3_5_place_dp.log:total displacement       2138.6 u
+work/logs/sky130hd/alu32/base/3_5_place_dp.log:average displacement        1.4 u
+work/logs/sky130hd/alu32/base/3_5_place_dp.log:max displacement            5.9 u
+work/logs/sky130hd/alu32/base/3_5_place_dp.log:improve_placement -max_displacement "5 1"
+work/logs/sky130hd/alu32/base/3_5_place_dp.log:[INFO DPL-0402] Setting maximum displacement 5 1 to 13600 2720 units.
+work/logs/sky130hd/alu32/base/3_5_place_dp.log:Design area 9856 um^2 45% utilization.
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_16.
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_16.
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO CTS-0052] The following clock buffers will be used for CTS:
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_16.
+work/logs/sky130hd/alu32/base/4_1_cts.log:[WARNING CTS-0083] No clock nets have been found.
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO CTS-0008] TritonCTS found 0 clock nets.
+work/logs/sky130hd/alu32/base/4_1_cts.log:[WARNING CTS-0082] No valid clock nets in the design.
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO DPL-0006] Core area: 21688.30 um^2, Instances area: 9855.70 um^2, Utilization: 45.4%
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+work/logs/sky130hd/alu32/base/4_1_cts.log:Diamond Move Success:           1275 (100.00%)
+work/logs/sky130hd/alu32/base/4_1_cts.log:total displacement          0.0 u
+work/logs/sky130hd/alu32/base/4_1_cts.log:average displacement        0.0 u
+work/logs/sky130hd/alu32/base/4_1_cts.log:max displacement            0.0 u
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO RSZ-0098] No setup violations found
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO RSZ-0033] No hold violations found.
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO DPL-0006] Core area: 21688.30 um^2, Instances area: 9855.70 um^2, Utilization: 45.4%
+work/logs/sky130hd/alu32/base/4_1_cts.log:[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+work/logs/sky130hd/alu32/base/4_1_cts.log:Diamond Move Success:           1275 (100.00%)
+work/logs/sky130hd/alu32/base/4_1_cts.log:total displacement          0.0 u
+work/logs/sky130hd/alu32/base/4_1_cts.log:average displacement        0.0 u
+work/logs/sky130hd/alu32/base/4_1_cts.log:max displacement            0.0 u
+work/logs/sky130hd/alu32/base/4_1_cts.log:Design area 9856 um^2 45% utilization.
+work/logs/sky130hd/alu32/base/5_1_grt.log:Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+work/logs/sky130hd/alu32/base/5_1_grt.log:        0 |     +0.0% |       0 |       0 |             0 |      1442
+work/logs/sky130hd/alu32/base/5_1_grt.log:    final |     +0.0% |       0 |       0 |             0 |         0
+work/logs/sky130hd/alu32/base/5_1_grt.log:[INFO DPL-0006] Core area: 21688.30 um^2, Instances area: 9855.70 um^2, Utilization: 45.4%
+work/logs/sky130hd/alu32/base/5_1_grt.log:[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+work/logs/sky130hd/alu32/base/5_1_grt.log:Diamond Move Success:           1275 (100.00%)
+work/logs/sky130hd/alu32/base/5_1_grt.log:total displacement          0.0 u
+work/logs/sky130hd/alu32/base/5_1_grt.log:average displacement        0.0 u
+work/logs/sky130hd/alu32/base/5_1_grt.log:max displacement            0.0 u
+work/logs/sky130hd/alu32/base/5_1_grt.log:[INFO RSZ-0098] No setup violations found
+work/logs/sky130hd/alu32/base/5_1_grt.log:[INFO RSZ-0033] No hold violations found.
+work/logs/sky130hd/alu32/base/5_1_grt.log:[INFO DPL-0006] Core area: 21688.30 um^2, Instances area: 9855.70 um^2, Utilization: 45.4%
+work/logs/sky130hd/alu32/base/5_1_grt.log:[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+work/logs/sky130hd/alu32/base/5_1_grt.log:Diamond Move Success:           1275 (100.00%)
+work/logs/sky130hd/alu32/base/5_1_grt.log:total displacement          0.0 u
+work/logs/sky130hd/alu32/base/5_1_grt.log:average displacement        0.0 u
+work/logs/sky130hd/alu32/base/5_1_grt.log:max displacement            0.0 u
+work/logs/sky130hd/alu32/base/5_1_grt.log:[INFO GRT-0012] Found 0 antenna violations.
+work/logs/sky130hd/alu32/base/5_1_grt.log:[INFO ANT-0002] Found 0 net violations.
+work/logs/sky130hd/alu32/base/5_1_grt.log:[INFO ANT-0001] Found 0 pin violations.
+work/logs/sky130hd/alu32/base/5_1_grt.log:Design area 9856 um^2 45% utilization.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 1207.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 731.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 703.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 52.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 1.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 0.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0198] Complete detail routing.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO GRT-0012] Found 2 antenna violations.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DPL-0006] Core area: 21688.30 um^2, Instances area: 9860.71 um^2, Utilization: 45.5%
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+work/logs/sky130hd/alu32/base/5_2_route.log:Diamond Move Success:              0 (  0.00%)
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO GRT-0015] Inserted 2 diodes.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 116.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 14.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 27.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 0.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO DRT-0198] Complete detail routing.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO ANT-0002] Found 0 net violations.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO ANT-0001] Found 0 pin violations.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO ANT-0002] Found 0 net violations.
+work/logs/sky130hd/alu32/base/5_2_route.log:[INFO ANT-0001] Found 0 pin violations.
+work/logs/sky130hd/alu32/base/5_2_route.log:Design area 9861 um^2 45% utilization.
+work/logs/sky130hd/alu32/base/5_3_fillcell.log:[INFO DPL-0001] Placed 2235 filler instances.
+work/logs/sky130hd/alu32/base/5_3_fillcell.log:Design area 9861 um^2 45% utilization.
+work/logs/sky130hd/alu32/base/6_report.log:Design area 9861 um^2 45% utilization.
+work/reports/sky130hd/alu32/base/3_resizer.rpt:max slew violation count 0
+work/reports/sky130hd/alu32/base/3_resizer.rpt:max fanout violation count 0
+work/reports/sky130hd/alu32/base/3_resizer.rpt:max cap violation count 0
+work/reports/sky130hd/alu32/base/3_resizer.rpt:setup violation count 0
+work/reports/sky130hd/alu32/base/3_resizer.rpt:hold violation count 0

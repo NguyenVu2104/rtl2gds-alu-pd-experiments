@@ -1,0 +1,75 @@
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[INFO IFP-0107] Defining die area using utilization: 40.00% and aspect ratio: 1.
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[WARNING IFP-0028] Core area lower left (2.000, 2.000) snapped to (2.300, 2.720).
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[INFO IFP-0001] Added 54 rows of 321 site unithd.
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 152.385 152.385 ) um
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[INFO IFP-0101] Core BBox: (  2.300  2.720 ) ( 149.960 149.600 ) um
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[INFO IFP-0102] Core area:                        21688.301 um^2
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[INFO IFP-0103] Total instances area:              8807.197 um^2
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[INFO IFP-0104] Effective utilization:                0.406
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[INFO IFP-0105] Number of instances:                   1258
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:[INFO RSZ-0098] No setup violations found
+work/logs/sky130hd/alu32/no_port_buffers/2_1_floorplan.log:Design area 8807 um^2 41% utilization.
+work/logs/sky130hd/alu32/no_port_buffers/2_2_floorplan_macro.log:Design area 8807 um^2 41% utilization.
+work/logs/sky130hd/alu32/no_port_buffers/2_3_floorplan_tapcell.log:[INFO TAP-0005] Inserted 280 tapcells.
+work/logs/sky130hd/alu32/no_port_buffers/2_3_floorplan_tapcell.log:Design area 9158 um^2 42% utilization.
+work/logs/sky130hd/alu32/no_port_buffers/2_4_floorplan_pdn.log:[INFO PDN-0001] Inserting grid: grid
+work/logs/sky130hd/alu32/no_port_buffers/2_4_floorplan_pdn.log:Design area 9158 um^2 42% utilization.
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:[INFO GPL-0036] Movable instances area:       8807.197 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:[INFO GPL-0037] Total instances area:         9157.533 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:[INFO GPL-0035] Pin density area adjust:       997.178 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:[INFO GPL-0006] Number of instances:              1538
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:[INFO GPL-0017] Fixed instances area:          350.336 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:[INFO GPL-0018] Movable instances area:       9804.374 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:[INFO GPL-0019] Utilization:                    45.948 %
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:        0 |   0.9939 |  2.765130e+03 |   +0.00% |  8.76e-15 |      
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:[INFO GPL-1014] Final placement area: 9804.37 (+0.00%)
+work/logs/sky130hd/alu32/no_port_buffers/3_1_place_gp_skip_io.log:Design area 9158 um^2 42% utilization.
+work/logs/sky130hd/alu32/no_port_buffers/3_2_place_iop.log:[INFO PPL-0002] Number of I/O             100
+work/logs/sky130hd/alu32/no_port_buffers/3_2_place_iop.log:Design area 9158 um^2 42% utilization.
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO RSZ-0026] Removed 97 buffers.
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0036] Movable instances area:       8378.035 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0037] Total instances area:         8728.371 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0035] Pin density area adjust:       975.885 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0006] Number of instances:              1441
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0017] Fixed instances area:          350.336 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0018] Movable instances area:       9353.920 um^2
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0019] Utilization:                    43.837 %
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:        0 |   0.9357 |  1.329290e+04 |   +0.00% |  9.40e-15 |      
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0100] Timing-driven iteration 1/2, virtual: false.
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0101]    Iter: 247, overflow: 0.635, keep resizer changes at: 1, HPWL: 22165592
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:        0 |     +0.0% |       0 |       0 |             0 |      1328
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:    final |     +1.0% |       4 |       7 |             4 |         0
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO RSZ-0034] Found 4 slew violations.
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO RSZ-0036] Found 4 capacitance violations.
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO RSZ-0039] Resized 4 instances.
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO RSZ-0038] Inserted 7 buffers in 4 nets.
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:   Iter   |    Area   | Removed | Inserted |   Pins
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:        0 |     +0.0% |       0 |        0 |      1260
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:    final |     +0.1% |       7 |        9 |         0
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0106] Timing-driven: worst slack 1e+30
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[WARNING GPL-0102] Timing-driven: no slacks found. Timing-driven mode disabled.
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-0107] Timing-driven: repair_design delta area: 98.951 um^2 (+1.06%)
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-1011] Original area (um^2): 9353.92
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-1012] Total routability artificial inflation: 1335.24 (+14.27%)
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:[INFO GPL-1014] Final placement area: 10871.46 (+16.22%)
+work/logs/sky130hd/alu32/no_port_buffers/3_3_place_gp.log:Design area 8830 um^2 41% utilization.
+work/logs/sky130hd/alu32/no_port_buffers/3_4_place_resized.log:Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+work/logs/sky130hd/alu32/no_port_buffers/3_4_place_resized.log:        0 |     +0.0% |       0 |       0 |             0 |      1337
+work/logs/sky130hd/alu32/no_port_buffers/3_4_place_resized.log:    final |     +0.0% |       0 |       0 |             0 |         0
+work/logs/sky130hd/alu32/no_port_buffers/3_4_place_resized.log:Design area 8830 um^2 41% utilization.
+work/logs/sky130hd/alu32/no_port_buffers/3_4_place_resized.log:Instance count before 1450, after 1450
+work/logs/sky130hd/alu32/no_port_buffers/3_5_place_dp.log:[INFO DPL-0006] Core area: 21688.30 um^2, Instances area: 8829.72 um^2, Utilization: 40.7%
+work/logs/sky130hd/alu32/no_port_buffers/3_5_place_dp.log:[INFO DPL-0005] Diamond search max displacement: +/- 500 sites horizontally, +/- 100 rows vertically.
+work/logs/sky130hd/alu32/no_port_buffers/3_5_place_dp.log:Diamond Move Success:           1170 (100.00%)
+work/logs/sky130hd/alu32/no_port_buffers/3_5_place_dp.log:total displacement       1851.4 u
+work/logs/sky130hd/alu32/no_port_buffers/3_5_place_dp.log:average displacement        1.3 u
+work/logs/sky130hd/alu32/no_port_buffers/3_5_place_dp.log:max displacement            6.2 u
+work/logs/sky130hd/alu32/no_port_buffers/3_5_place_dp.log:improve_placement -max_displacement "5 1"
+work/logs/sky130hd/alu32/no_port_buffers/3_5_place_dp.log:[INFO DPL-0402] Setting maximum displacement 5 1 to 13600 2720 units.
+work/logs/sky130hd/alu32/no_port_buffers/3_5_place_dp.log:Design area 8830 um^2 41% utilization.
+work/reports/sky130hd/alu32/no_port_buffers/3_resizer.rpt:max slew violation count 0
+work/reports/sky130hd/alu32/no_port_buffers/3_resizer.rpt:max fanout violation count 0
+work/reports/sky130hd/alu32/no_port_buffers/3_resizer.rpt:max cap violation count 0
+work/reports/sky130hd/alu32/no_port_buffers/3_resizer.rpt:setup violation count 0
+work/reports/sky130hd/alu32/no_port_buffers/3_resizer.rpt:hold violation count 0

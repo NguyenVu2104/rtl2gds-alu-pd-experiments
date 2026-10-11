@@ -1,0 +1,12 @@
+# ORFS commit
+d90873f47b79f343c6be15210ce398e1383c08d2
+# OpenROAD version (first line of a log)
+OpenROAD 26Q2-1164-g08f67ee5ec 
+# Yosys version (first line of a log)
+Yosys 0.65+71 (git sha1 e56c6a954, clang++ 18.1.8 -fPIC -O3)
+# KLayout version
+KLayout 0.30.7
+# 5_2_route.odb checksum, first run (old repo)
+5_2_route                 .odb          169           1356 b21c3c1c283928bcf0dd
+# 5_2_route.odb checksum, rerun (this repo)
+5_2_route                 .odb          164           1293 b21c3c1c283928bcf0dd

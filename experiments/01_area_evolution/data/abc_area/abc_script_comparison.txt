@@ -1,0 +1,43 @@
+# ABC script used: baseline
+work/logs/sky130hd/alu32/base/1_2_yosys.log:Using ABC speed script.
+# ABC script used: abc_area
+work/logs/sky130hd/alu32/abc_area/1_2_yosys.log:Using ABC area script.
+# diff abc_speed.script abc_area.script
+1,31c1,3
+< &get -n
+< &st
+< &dch
+< &nf
+< &st
+< &syn2
+< &if -g -K 6
+< &synch2
+< &nf
+< &st
+< &syn2
+< &if -g -K 6
+< &synch2
+< &nf
+< &st
+< &syn2
+< &if -g -K 6
+< &synch2
+< &nf
+< &st
+< &syn2
+< &if -g -K 6
+< &synch2
+< &nf
+< &st
+< &syn2
+< &if -g -K 6
+< &synch2
+< &nf
+< &put
+< buffer -c
+---
+> strash
+> dch
+> map -B 0.9
+33a6
+> buffer -c
