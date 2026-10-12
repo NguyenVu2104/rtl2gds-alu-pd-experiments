@@ -3,3 +3,4 @@ build/
 obj_dir/
 *.vcd
 *.fst
+temp.sh
