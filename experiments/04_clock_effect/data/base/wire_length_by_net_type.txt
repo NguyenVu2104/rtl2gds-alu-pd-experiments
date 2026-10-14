@@ -1,0 +1,17 @@
+--- alu32_reg (router reported 41709 um) | dbu per micron: 1000
+SIGNAL nets with wire: 1508 total length (um): 40058.22
+CLOCK nets with wire: 10 total length (um): 1655.97
+all nets total length (um): 41714.19
+clock net: ('clk', 1, 162.69)
+clock net: ('clknet_0_clk', 9, 285.09)
+clock net: ('clknet_3_0__leaf_clk', 18, 169.81)
+clock net: ('clknet_3_1__leaf_clk', 14, 165.86)
+clock net: ('clknet_3_2__leaf_clk', 19, 169.12)
+clock net: ('clknet_3_3__leaf_clk', 14, 163.39)
+clock net: ('clknet_3_4__leaf_clk', 10, 118.63)
+clock net: ('clknet_3_5__leaf_clk', 14, 157.44)
+clock net: ('clknet_3_6__leaf_clk', 11, 115.32)
+clock net: ('clknet_3_7__leaf_clk', 15, 148.62)
+--- alu32 (router reported 38634 um) | dbu per micron: 1000
+SIGNAL nets with wire: 1389 total length (um): 38631.08
+all nets total length (um): 38631.08

@@ -1,0 +1,16 @@
+cells touching a CLOCK net, by master:
+9 sky130_fd_sc_hd__clkbuf_16
+1 sky130_fd_sc_hd__clkbuf_8
+3 sky130_fd_sc_hd__clkinv_4
+1 sky130_fd_sc_hd__clkinvlp_4
+96 sky130_fd_sc_hd__dfxtp_1
+3 sky130_fd_sc_hd__dfxtp_2
+1 sky130_fd_sc_hd__dfxtp_4
+2 sky130_fd_sc_hd__inv_8
+inverter-like cells touching a CLOCK net: 6
+('clkload1', 'sky130_fd_sc_hd__clkinv_4')
+('clkload2', 'sky130_fd_sc_hd__clkinv_4')
+('clkload3', 'sky130_fd_sc_hd__inv_8')
+('clkload4', 'sky130_fd_sc_hd__clkinv_4')
+('clkload5', 'sky130_fd_sc_hd__inv_8')
+('clkload6', 'sky130_fd_sc_hd__clkinvlp_4')

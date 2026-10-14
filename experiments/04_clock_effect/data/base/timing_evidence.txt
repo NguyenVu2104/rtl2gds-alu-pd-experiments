@@ -1,0 +1,103 @@
+## wns, tns, worst slack theo stage
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/2_floorplan_final.rpt:floorplan final report_tns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/2_floorplan_final.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/2_floorplan_final.rpt-tns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/2_floorplan_final.rpt:floorplan final report_wns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/2_floorplan_final.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/2_floorplan_final.rpt-wns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/2_floorplan_final.rpt:floorplan final report_worst_slack
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/2_floorplan_final.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/2_floorplan_final.rpt-worst slack max 6.05
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt:detailed place report_tns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt-tns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt:detailed place report_wns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt-wns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt:detailed place report_worst_slack
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt-worst slack max 5.15
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_global_place.rpt:global place report_tns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_global_place.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_global_place.rpt-tns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_global_place.rpt:global place report_wns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_global_place.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_global_place.rpt-wns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_global_place.rpt:global place report_worst_slack
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_global_place.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_global_place.rpt-worst slack max 5.27
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt:resizer report_tns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt-tns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt:resizer report_wns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt-wns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt:resizer report_worst_slack
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt-worst slack max 5.27
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt:cts final report_tns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt-tns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt:cts final report_wns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt-wns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt:cts final report_worst_slack
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt-worst slack max 5.14
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt:global route report_tns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt-tns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt:global route report_wns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt-wns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt:global route report_worst_slack
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt-worst slack max 4.65
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt:finish report_tns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt-tns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt:finish report_wns
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt-wns max 0.00
+--
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt:finish report_worst_slack
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt-worst slack max 5.06
+## report_clock_min_period
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt:cts final report_clock_min_period
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt---------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt-clk period_min = 4.86 fmax = 205.79
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt-
+## skew
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt:23:cts final report_clock_skew
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt:30:   0.01 setup skew
+## setup, hold violation count
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt:setup violation count 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_detailed_place.rpt:hold violation count 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt:setup violation count 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/3_resizer.rpt:hold violation count 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt:setup violation count 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/4_cts_final.rpt:hold violation count 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt:setup violation count 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/5_global_route.rpt:hold violation count 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt:setup violation count 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/reports/sky130hd/alu32_reg/base/6_finish.rpt:hold violation count 0

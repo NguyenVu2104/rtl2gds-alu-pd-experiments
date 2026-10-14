@@ -1,0 +1,8 @@
+10:clock_tree_synthesis -sink_clustering_enable -repair_clock_nets -sink_clustering_max_diameter 10
+17:[INFO CTS-0010]  Clock net "clk" has 100 sinks.
+45:[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+47:[INFO CTS-0018]     Created 9 clock buffers.
+53:[INFO CTS-0098] Clock net "clk"
+54:[INFO CTS-0099]  Sinks 107
+58:[INFO CTS-0207]  Dummy loads inserted 7
+18806bc282136326e61e04f4071cf079  /home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/results/sky130hd/alu32_reg/cts_cluster_diameter_10/4_1_cts.odb

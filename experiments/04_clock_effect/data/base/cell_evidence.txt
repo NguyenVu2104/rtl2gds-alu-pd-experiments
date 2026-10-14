@@ -1,0 +1,21 @@
+## Liberty area
+    cell ("sky130_fd_sc_hd__clkdlybuf4s50_1") {
+        area : 10.009600000;
+    cell ("sky130_fd_sc_hd__dfxtp_1") {
+        area : 20.019200000;
+    cell ("sky130_fd_sc_hd__dfxtp_2") {
+        area : 21.270400000;
+    cell ("sky130_fd_sc_hd__dfxtp_4") {
+        area : 23.772800000;
+## Flip-flop trong 1_2_yosys.v (sau synthesis)
+    100 sky130_fd_sc_hd__dfxtp_1
+## Flip-flop và clock cell trong 6_final.v (cuối flow)
+      9 sky130_fd_sc_hd__clkbuf_16
+      1 sky130_fd_sc_hd__clkbuf_8
+    100 sky130_fd_sc_hd__clkdlybuf4s50_1
+      1 sky130_fd_sc_hd__clkinv_1
+      3 sky130_fd_sc_hd__clkinv_4
+      1 sky130_fd_sc_hd__clkinvlp_4
+     96 sky130_fd_sc_hd__dfxtp_1
+      3 sky130_fd_sc_hd__dfxtp_2
+      1 sky130_fd_sc_hd__dfxtp_4

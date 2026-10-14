@@ -1,0 +1,125 @@
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[INFO IFP-0107] Defining die area using utilization: 40.00% and aspect ratio: 1.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[WARNING IFP-0028] Core area lower left (2.000, 2.000) snapped to (2.300, 2.720).
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[INFO IFP-0001] Added 59 rows of 355 site unithd.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 167.815 167.815 ) um
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[INFO IFP-0101] Core BBox: (  2.300  2.720 ) ( 165.600 163.200 ) um
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[INFO IFP-0102] Core area:                        26206.384 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[INFO IFP-0103] Total instances area:             10734.045 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[INFO IFP-0104] Effective utilization:                0.410
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[INFO IFP-0105] Number of instances:                   1352
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:[INFO RSZ-0098] No setup violations found
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_1_floorplan.log:Design area 10734 um^2 41% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_2_floorplan_macro.log:Design area 10734 um^2 41% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_3_floorplan_tapcell.log:[INFO TAP-0005] Inserted 335 tapcells.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_3_floorplan_tapcell.log:Design area 11153 um^2 43% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_4_floorplan_pdn.log:[INFO PDN-0001] Inserting grid: grid
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/2_4_floorplan_pdn.log:Design area 11153 um^2 43% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_1_place_gp_skip_io.log:[INFO GPL-0036] Movable instances area:      10734.045 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_1_place_gp_skip_io.log:[INFO GPL-0037] Total instances area:        11153.197 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_1_place_gp_skip_io.log:[INFO GPL-0035] Pin density area adjust:      1153.374 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_1_place_gp_skip_io.log:[INFO GPL-0006] Number of instances:              1687
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_1_place_gp_skip_io.log:[INFO GPL-0017] Fixed instances area:          419.152 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_1_place_gp_skip_io.log:[INFO GPL-0018] Movable instances area:      11887.419 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_1_place_gp_skip_io.log:[INFO GPL-0019] Utilization:                    46.098 %
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_1_place_gp_skip_io.log:[INFO GPL-1014] Final placement area: 11887.42 (+0.00%)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_1_place_gp_skip_io.log:Design area 11153 um^2 43% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_2_place_iop.log:[INFO PPL-0002] Number of I/O             101
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_2_place_iop.log:Design area 11153 um^2 43% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO RSZ-0026] Removed 91 buffers.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO RSZ-0027] Inserted 68 sky130_fd_sc_hd__clkdlybuf4s50_1 input buffers.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO RSZ-0028] Inserted 32 sky130_fd_sc_hd__clkdlybuf4s50_1 output buffers.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0036] Movable instances area:      11325.862 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0037] Total instances area:        11745.014 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0035] Pin density area adjust:      1232.243 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0006] Number of instances:              1696
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0017] Fixed instances area:          419.152 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0018] Movable instances area:      12558.106 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0019] Utilization:                    48.699 %
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0100] Timing-driven iteration 1/2, virtual: false.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0101]    Iter: 213, overflow: 0.634, keep resizer changes at: 1, HPWL: 19347411
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO RSZ-0034] Found 6 slew violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO RSZ-0036] Found 1 capacitance violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO RSZ-0039] Resized 6 instances.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO RSZ-0038] Inserted 6 buffers in 6 nets.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0106] Timing-driven: worst slack 4.8529385e-09
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0107] Timing-driven: repair_design delta area: 104.200 um^2 (+0.83%)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0100] Timing-driven iteration 2/2, virtual: false.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0101]    Iter: 1800, overflow: 0.192, keep resizer changes at: 1, HPWL: 30068537
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO RSZ-0036] Found 1 capacitance violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO RSZ-0038] Inserted 1 buffers in 1 nets.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0106] Timing-driven: worst slack 5.15663e-09
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-0107] Timing-driven: repair_design delta area: 51.970 um^2 (+0.38%)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-1011] Original area (um^2): 12558.11
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-1012] Total routability artificial inflation: 1135.59 (+9.04%)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-1013] Total timing-driven delta area: 156.17 (+1.24%)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:[INFO GPL-1014] Final placement area: 13849.87 (+10.29%)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_3_place_gp.log:Design area 11899 um^2 45% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_4_place_resized.log:Design area 11899 um^2 45% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_4_place_resized.log:Instance count before 1714, after 1714
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_5_place_dp.log:[INFO DPL-0006] Core area: 26206.38 um^2, Instances area: 11898.91 um^2, Utilization: 45.4%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/3_5_place_dp.log:Design area 11899 um^2 45% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_16.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_16.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0052] The following clock buffers will be used for CTS:
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_16.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0007] Net "clk" found for clock "clk".
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0010]  Clock net "clk" has 100 sinks.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0008] TritonCTS found 1 clock nets.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0097] Characterization used 1 buffer(s) types.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0201] 0 blockages from hard placement blockages and placed macros will be used.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0027] Generating H-Tree topology for net clk.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0028]  Total number of sinks: 100.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0030]  Number of static layers: 0.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0020]  Wire segment unit: 13600  dbu (13 um).
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0023]  Original sink region: [(4865, 6860), (165335, 159180)].
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0024]  Normalized sink region: [(0.357721, 0.504412), (12.157, 11.7044)].
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0025]     Width:  11.7993.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0026]     Height: 11.2000.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0034]     Segment length (rounded): 2.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0034]     Segment length (rounded): 2.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0034]     Segment length (rounded): 1.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0035]  Number of sinks covered: 100.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0018]     Created 9 clock buffers.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0012]     Minimum number of buffers in the clock path: 2.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0013]     Maximum number of buffers in the clock path: 2.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0015]     Created 9 clock nets.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0016]     Fanout distribution for the current clock = 8:1, 9:1, 12:3, 13:1, 16:1, 18:1..
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0017]     Max level of the clock tree: 3.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0098] Clock net "clk"
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0099]  Sinks 107
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0100]  Leaf buffers 0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0101]  Average sink wire length 273.66 um
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0102]  Path depth 2 - 2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0207]  Dummy loads inserted 7
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO DPL-0006] Core area: 26206.38 um^2, Instances area: 12194.20 um^2, Utilization: 46.5%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO RSZ-0098] No setup violations found
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO RSZ-0033] No hold violations found.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO DPL-0006] Core area: 26206.38 um^2, Instances area: 12194.20 um^2, Utilization: 46.5%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:Design area 12194 um^2 47% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_1_grt.log:[INFO DPL-0006] Core area: 26206.38 um^2, Instances area: 12194.20 um^2, Utilization: 46.5%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_1_grt.log:[INFO RSZ-0098] No setup violations found
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_1_grt.log:[INFO RSZ-0033] No hold violations found.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_1_grt.log:[INFO DPL-0006] Core area: 26206.38 um^2, Instances area: 12194.20 um^2, Utilization: 46.5%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_1_grt.log:[INFO GRT-0012] Found 0 antenna violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_1_grt.log:[INFO ANT-0002] Found 0 net violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_1_grt.log:[INFO ANT-0001] Found 0 pin violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_1_grt.log:Design area 12194 um^2 47% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 1296.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 853.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 882.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 228.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 16.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 7.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 7.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO DRT-0199]   Number of violations = 0.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO GRT-0012] Found 0 antenna violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO ANT-0002] Found 0 net violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO ANT-0001] Found 0 pin violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO ANT-0002] Found 0 net violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:[INFO ANT-0001] Found 0 pin violations.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_2_route.log:Design area 12194 um^2 47% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_3_fillcell.log:[INFO DPL-0001] Placed 2558 filler instances.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/5_3_fillcell.log:Design area 12194 um^2 47% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/6_report.log:Design area 12194 um^2 47% utilization.

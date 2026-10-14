@@ -1,0 +1,9 @@
+## md5 4_1_cts.odb của base và ba variant
+18806bc282136326e61e04f4071cf079  /home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/results/sky130hd/alu32_reg/base/4_1_cts.odb
+18806bc282136326e61e04f4071cf079  /home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/results/sky130hd/alu32_reg/cts_cluster_size_5/4_1_cts.odb
+18806bc282136326e61e04f4071cf079  /home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/results/sky130hd/alu32_reg/cts_cluster_size_50/4_1_cts.odb
+18806bc282136326e61e04f4071cf079  /home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/results/sky130hd/alu32_reg/cts_cluster_diameter_10/4_1_cts.odb
+## dòng CTS-0090 và CTS-0060 (gom cụm) của từng log
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/base/4_1_cts.log:[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/cts_cluster_size_5/4_1_cts.log:[INFO CTS-0060]  Register sinks will be clustered in groups of up to 5 and based on buffer max cap.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32_reg/cts_cluster_size_50/4_1_cts.log:[INFO CTS-0060]  Register sinks will be clustered in groups of up to 50 and based on buffer max cap.
