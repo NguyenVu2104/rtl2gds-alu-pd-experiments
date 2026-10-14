@@ -5,3 +5,4 @@ obj_dir/
 *.fst
 temp.sh
 tmp.txt
+journal/
