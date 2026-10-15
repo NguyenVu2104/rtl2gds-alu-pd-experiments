@@ -1,0 +1,23 @@
+[INFO GPL-0040] Routability iteration: 1
+[INFO GPL-0041] Total routing overflow: 4.3964
+[INFO GPL-0042] Number of overflowed tiles: 57 (22.27%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.2629
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.2587
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.2135
+[INFO GPL-0046] Average top 5.0% routing congestion: 1.1777
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.2608
+[INFO GPL-0048] Routing congestion (1.2608) lower than previous minimum (1e+30). Updating minimum.
+[INFO GPL-0086] Inflated area:                 689.767 um^2 (+6.48%)
+[INFO GPL-0052] Placement target density:       0.9502
+[INFO GPL-0076] Removing fillers, count: Before: 3, After: 0 (-100.00%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 28.280, After: 0.000 (-100.00%)
+[INFO GPL-0078] Removed fillers count: 3, area removed: 24.453 um^2. Remaining area to be compensated by modifying density: 665.314 um^2
+[INFO GPL-0079] New target density: 1.0090389
+[INFO GPL-0053] Target density 1.0090 exceeds the maximum allowed 0.9900.
+[INFO GPL-0055] Reverting inflation values and target density from the iteration with minimum observed routing congestion.
+[INFO GPL-0056] Minimum observed routing congestion: 1.2608
+[INFO GPL-0057] Target density at minimum routing congestion: 0.9502
+[INFO GPL-0080] Restoring 3 previously removed fillers.
+[INFO GPL-0081] Number of fillers before restoration 0 and after 3 . Relative change: +0.00%%
+[INFO GPL-0082] Total filler area before restoration 0.00 and after 24.45 (um^2). Relative change: +0.00%%
+[INFO GPL-0089] Routability finished. Reverting to minimal observed routing congestion, could not reach target.

@@ -1,0 +1,108 @@
+=== Floorplan (IFP-0107 utilization yêu cầu, IFP-0100 die, IFP-0102 core area, IFP-0104 effective utilization)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/2_1_floorplan.log:[INFO IFP-0107] Defining die area using utilization: 75.00% and aspect ratio: 1.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/2_1_floorplan.log:[WARNING IFP-0028] Core area lower left (2.000, 2.000) snapped to (2.300, 2.720).
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/2_1_floorplan.log:[INFO IFP-0001] Added 39 rows of 234 site unithd.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/2_1_floorplan.log:[INFO IFP-0100] Die BBox:  (  0.000  0.000 ) ( 112.365 112.365 ) um
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/2_1_floorplan.log:[INFO IFP-0101] Core BBox: (  2.300  2.720 ) ( 109.940 108.800 ) um
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/2_1_floorplan.log:[INFO IFP-0102] Core area:                        11418.451 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/2_1_floorplan.log:[INFO IFP-0103] Total instances area:              8807.197 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/2_1_floorplan.log:[INFO IFP-0104] Effective utilization:                0.771
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/2_1_floorplan.log:[INFO IFP-0105] Number of instances:                   1258
+=== Design area sau từng stage 3_1 đến 3_5
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_1_place_gp_skip_io.log:Design area 8986 um^2 79% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_2_place_iop.log:Design area 8986 um^2 79% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:Design area 9677 um^2 85% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_4_place_resized.log:Design area 9677 um^2 85% utilization.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_5_place_dp.log:Design area 9677 um^2 85% utilization.
+=== Lệnh global_placement thật sự chạy ở 3_3 (kiểm tra không có -routability_use_grt)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:global_placement -density 0.6 -pad_left 0 -pad_right 0 -routability_driven -timing_driven -force_center_initial_place -min_phi_coef 0.95 -max_phi_coef 1.05
+=== Thông báo GPL của global placement 3_3
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:[INFO GPL-0017] Fixed instances area:          178.922 um^2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:[INFO GPL-0019] Utilization:                    93.748 %
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:[WARNING GPL-0302] Target density 0.6000 is too low for the available free area.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:[INFO GPL-0023] Placement target density:       0.9400
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:[INFO GPL-0041] Total routing overflow: 4.3964
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:[INFO GPL-0042] Number of overflowed tiles: 57 (22.27%)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:[INFO GPL-0047] Routability iteration weighted routing congestion: 1.2608
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/3_3_place_gp.log:[INFO GPL-1012] Total routability artificial inflation: 0.00 (+0.00%)
+=== Ba dòng cuối của bảng HPWL (HPWL cuối ở dòng cuối cùng)
+      450 |   0.1328 |  2.304527e+04 |   +0.52% |  4.94e-07 |      
+      460 |   0.1154 |  2.316318e+04 |   +0.51% |  7.28e-07 |      
+      469 |   0.0996 |  2.325409e+04 |          |  1.07e-06 |      
+=== Thông báo GRT của global route (GRT-0018 wirelength, GRT-0101 và GRT-0102 vòng chạy thêm)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log:[INFO GRT-0101] Running extra iterations to remove overflow.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log:[INFO GRT-0102] Start extra iteration 1/30
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log:[INFO GRT-0102] Start extra iteration 2/30
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log:[INFO GRT-0102] Start extra iteration 3/30
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log:[INFO GRT-0018] Total wirelength: 51950 um
+=== Tài nguyên routing mỗi layer
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log:[INFO GRT-0053] Routing resources analysis:
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-          Routing      Original      Derated      Resource
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-Layer     Direction    Resources     Resources    Reduction (%)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log----------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-li1        Vertical            0             0          0.00%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met1       Horizontal       3441          2669          22.44%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met2       Vertical         3225          2490          22.79%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met3       Horizontal       2328          1817          21.95%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met4       Vertical         1605          1230          23.36%
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met5       Horizontal        390           255          34.62%
+=== Bảng congestion cuối (GRT-0096)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log:[INFO GRT-0096] Final congestion report:
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log----------------------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-li1                  0             0            0.00%             0 /  0 /  0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met1              2669          1833           68.68%             0 /  0 /  0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met2              2490          1851           74.34%             0 /  0 /  0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met3              1817           417           22.95%             0 /  0 /  0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met4              1230           371           30.16%             0 /  0 /  0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-met5               255             8            3.14%             0 /  0 /  0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log----------------------------------------------------------------------------------------
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.log-Total             8461          4480           52.95%             0 /  0 /  0
+=== Các metric wirelength trong 5_1_grt.json
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.json:	"globalroute__global_route__wirelength": 51950,
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_1_grt.json:	"globalroute__route__wirelength__estimated": 25357.2,
+=== Detailed route: số vi phạm (DRT-0199) sau mỗi iteration
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:[INFO DRT-0199]   Number of violations = 1716.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:[INFO DRT-0199]   Number of violations = 1421.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:[INFO DRT-0199]   Number of violations = 1355.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:[INFO DRT-0199]   Number of violations = 349.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:[INFO DRT-0199]   Number of violations = 54.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:[INFO DRT-0199]   Number of violations = 6.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:[INFO DRT-0199]   Number of violations = 6.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:[INFO DRT-0199]   Number of violations = 0.
+=== Detailed route: bảng vi phạm của iteration đầu tiên
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:[INFO DRT-0199]   Number of violations = 1716.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log-Viol/Layer         li1   mcon   met1   met2   met3   met4
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log-Cut Spacing          0      7      0      0      0      0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log-Metal Spacing        0      0    206     65      4      0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log-Min Hole             0      0      2      0      0      0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log-Recheck              3      0     89     38      5      2
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log-Short                0      0   1094    200      1      0
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log-[INFO DRT-0267] cpu time = 00:01:44, elapsed time = 00:01:36, memory = 826.50 (MB), peak = 825.59 (MB)
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log-Total wire length = 33883 um.
+=== Detailed route: wire length ở lần báo đầu và lần báo cuối
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:Total wire length = 33883 um.
+/home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/logs/sky130hd/alu32/utilization_75/5_2_route.log:Total wire length = 33320 um.
+=== Thư mục report (không có congestion.rpt nghĩa là không file congestion nào được ghi)
+total 4844
+-rw-r--r-- 1 vu vu    6911 Oct 14 21:50 2_floorplan_final.rpt
+-rw-r--r-- 1 vu vu   10885 Oct 14 21:50 3_detailed_place.rpt
+-rw-r--r-- 1 vu vu    7310 Oct 14 21:50 3_global_place.rpt
+-rw-r--r-- 1 vu vu   10709 Oct 14 21:50 3_resizer.rpt
+-rw-r--r-- 1 vu vu   10939 Oct 14 21:50 4_cts_final.rpt
+-rw-r--r-- 1 vu vu   11017 Oct 14 21:50 5_global_route.rpt
+-rw-r--r-- 1 vu vu       0 Oct 14 22:00 5_route_drc.rpt
+-rw-r--r-- 1 vu vu     683 Oct 14 21:58 5_route_drc.rpt-5.rpt
+-rw-r--r-- 1 vu vu   10861 Oct 14 22:00 6_finish.rpt
+-rw-r--r-- 1 vu vu       0 Oct 14 22:00 drt_antennas.log
+-rw-r--r-- 1 vu vu 1863220 Oct 14 22:00 final_all.webp.png
+-rw-r--r-- 1 vu vu    8600 Oct 14 22:00 final_clocks.webp.png
+-rw-r--r-- 1 vu vu  177897 Oct 14 22:00 final_congestion.webp.png
+-rw-r--r-- 1 vu vu  201764 Oct 14 22:00 final_ir_drop.webp.png
+-rw-r--r-- 1 vu vu  187833 Oct 14 22:00 final_placement.webp.png
+-rw-r--r-- 1 vu vu  186589 Oct 14 22:00 final_resizer.webp.png
+-rw-r--r-- 1 vu vu 2055935 Oct 14 22:00 final_routing.webp.png
+-rw-r--r-- 1 vu vu  171548 Oct 14 22:00 final_worst_path.webp.png
+-rw-r--r-- 1 vu vu       0 Oct 14 21:50 grt_antennas.log
+-rw-r--r-- 1 vu vu     115 Oct 14 21:50 synth_check.txt
+-rw-r--r-- 1 vu vu    6353 Oct 14 21:50 synth_stat.txt
