@@ -1,0 +1,20 @@
+repair_timing -setup_margin 0 -hold_margin 0 -repair_tns 100 -match_cell_footprint -setup -skip_last_gasp -sequence unbuffer,sizeup,swap,vt_swap -verbose
+[WARNING EST-0027] no estimated parasitics. Using wire load models.
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove 
+[INFO RSZ-0094] Found 2 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 2 out of 2 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |   Area   |    WNS   |   StTNS    |   EnTNS    |  Viol  |  Worst  
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |          |            |            | Endpts | St/EnPt 
+------------------------------------------------------------------------------------------------------------------------------
+       0* |       0 |       0 |        0 |      0 |     0 |    +0.0% |   -0.552 |       -1.5 |       -0.9 |      2 | y\[31\]$_SDFF_PN0_/D
+      10* |       0 |       8 |        0 |      0 |     1 |    +0.2% |   -0.167 |       -0.6 |       -0.2 |      2 | y\[31\]$_SDFF_PN0_/D
+      20* |       0 |      15 |        0 |      0 |     4 |    +0.4% |   -0.111 |       -0.3 |       -0.1 |      2 | y\[31\]$_SDFF_PN0_/D
+      30* |       0 |      20 |        0 |      0 |     9 |    +0.5% |   -0.057 |       -0.2 |       -0.1 |      2 | y\[31\]$_SDFF_PN0_/D
+      35* |       0 |      21 |        0 |      0 |     9 |    +0.5% |   -0.055 |       -0.1 |       -0.1 |      2 | y\[31\]$_SDFF_PN0_/D
+      36* |       0 |      21 |        0 |      0 |     9 |    +0.5% |   -0.055 |       -0.1 |       -0.1 |      2 | y\[31\]$_SDFF_PN0_/D
+      36* |       0 |      21 |        0 |      0 |     9 |    +0.5% |   -0.055 |       -0.1 |       -0.1 |      2 | y\[31\]$_SDFF_PN0_/D
+    final |       0 |      21 |        0 |      0 |     9 |    +0.5% |   -0.055 |       -0.1 |       -0.1 |      1 | y\[31\]$_SDFF_PN0_/D
+------------------------------------------------------------------------------------------------------------------------------
+[INFO RSZ-0051] Resized 21 instances: 21 up, 0 up match, 0 down, 0 VT
+[INFO RSZ-0043] Swapped pins on 9 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.

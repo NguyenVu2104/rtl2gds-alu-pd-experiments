@@ -1,0 +1,7 @@
+flow_variant: base
+clock_period_ns: 10.0
+orfs_commit: d90873f47b79f343c6be15210ce398e1383c08d2
+openroad_version: 26Q2-1164-g08f67ee5ec 
+md5 of the netlist after synthesis and of the CTS database:
+77238ceb20933794d2a0bcaa399b572b  /home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/results/sky130hd/alu32_reg/base/1_2_yosys.v
+18806bc282136326e61e04f4071cf079  /home/vu/PD_projects/rtl2gds-alu-pd-experiments/work/results/sky130hd/alu32_reg/base/4_1_cts.odb

@@ -1,0 +1,21 @@
+10:[INFO RSZ-0026] Removed 91 buffers.
+12:[INFO RSZ-0027] Inserted 68 sky130_fd_sc_hd__clkdlybuf4s50_1 input buffers.
+13:[INFO RSZ-0028] Inserted 32 sky130_fd_sc_hd__clkdlybuf4s50_1 output buffers.
+82:[INFO GPL-0100] Timing-driven iteration 1/2, virtual: false.
+83:[INFO GPL-0101]    Iter: 213, overflow: 0.635, keep resizer changes at: 1, HPWL: 19314452
+89:[INFO RSZ-0034] Found 5 slew violations.
+90:[INFO RSZ-0036] Found 3 capacitance violations.
+91:[INFO RSZ-0039] Resized 5 instances.
+92:[INFO RSZ-0038] Inserted 6 buffers in 5 nets.
+109:[INFO GPL-0106] Timing-driven: worst slack -7.818168e-11
+110:[INFO GPL-0107] Timing-driven: repair_design delta area: 944.306 um^2 (+7.51%)
+111:[INFO GPL-0108] Timing-driven: repair_design, gpl delta gcells: 122 (+8.96%)
+112:[INFO GPL-0109] Timing-driven: repair_design, gcells created: 128, deleted: 6
+113:[INFO GPL-0110] Timing-driven: new target density: 0.6366191
+781:[INFO GPL-0100] Timing-driven iteration 2/2, virtual: false.
+782:[INFO GPL-0101]    Iter: 2231, overflow: 0.193, keep resizer changes at: 1, HPWL: 32164802
+804:[INFO GPL-0106] Timing-driven: worst slack -1.0591206e-10
+805:[INFO GPL-0107] Timing-driven: repair_design delta area: 215.684 um^2 (+1.41%)
+806:[INFO GPL-0108] Timing-driven: repair_design, gpl delta gcells: 33 (+2.23%)
+807:[INFO GPL-0109] Timing-driven: repair_design, gcells created: 155, deleted: 122
+808:[INFO GPL-0110] Timing-driven: new target density: 0.6502585

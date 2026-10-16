@@ -1,0 +1,10 @@
+2_1_floorplan.log:Design area 10735 um^2 41% utilization.
+2_2_floorplan_macro.log:Design area 10735 um^2 41% utilization.
+2_3_floorplan_tapcell.log:Design area 11154 um^2 43% utilization.
+2_4_floorplan_pdn.log:Design area 11154 um^2 43% utilization.
+3_1_place_gp_skip_io.log:Design area 11154 um^2 43% utilization.
+3_2_place_iop.log:Design area 11154 um^2 43% utilization.
+3_3_place_gp.log:Design area 12238 um^2 47% utilization.
+3_4_place_resized.log:Design area 12238 um^2 47% utilization.
+3_5_place_dp.log:Design area 12238 um^2 47% utilization.
+4_1_cts.log:Design area 12531 um^2 48% utilization.

@@ -1,0 +1,23 @@
+repair_timing -setup_margin 0 -hold_margin 0 -repair_tns 100 -match_cell_footprint -verbose
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove BufferMove CloneMove SplitLoadMove 
+[INFO RSZ-0094] Found 3 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 3 out of 3 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |   Area   |    WNS   |   StTNS    |   EnTNS    |  Viol  |  Worst  
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |          |            |            | Endpts | St/EnPt 
+------------------------------------------------------------------------------------------------------------------------------
+       0* |       0 |       0 |        0 |      0 |     0 |    +0.0% |   -0.244 |       -3.4 |       -0.3 |      3 | y\[31\]$_SDFF_PN0_/D
+      10* |       0 |       3 |        2 |      0 |     4 |    +0.2% |   -0.168 |       -1.0 |       -0.2 |      3 | y\[31\]$_SDFF_PN0_/D
+      15* |       1 |       4 |        3 |      0 |     6 |    +0.3% |   -0.101 |       -0.6 |       -0.2 |      3 | y\[31\]$_SDFF_PN0_/D
+      16* |       1 |       4 |        3 |      0 |     6 |    +0.3% |   -0.101 |       -0.6 |       -0.2 |      3 | y\[31\]$_SDFF_PN0_/D
+      19* |       1 |       6 |        3 |      0 |     6 |    +0.4% |   -0.101 |       -0.2 |       -0.1 |      3 | y\[31\]$_SDFF_PN0_/D
+      19* |       1 |       6 |        3 |      0 |     6 |    +0.4% |   -0.101 |       -0.2 |       -0.1 |      3 | y\[31\]$_SDFF_PN0_/D
+      20+ |       1 |       6 |        3 |      0 |     6 |    +0.4% |   -0.101 |       -0.2 |       -0.1 |      1 | y\[31\]$_SDFF_PN0_/D
+      22+ |       1 |       6 |        3 |      0 |     8 |    +0.4% |   -0.093 |       -0.1 |       -0.1 |      1 | y\[31\]$_SDFF_PN0_/D
+    final |       1 |       6 |        3 |      0 |     8 |    +0.4% |   -0.093 |       -0.1 |       -0.1 |      1 | y\[31\]$_SDFF_PN0_/D
+------------------------------------------------------------------------------------------------------------------------------
+[INFO RSZ-0059] Removed 1 buffers.
+[INFO RSZ-0040] Inserted 3 buffers.
+[INFO RSZ-0051] Resized 6 instances: 6 up, 0 up match, 0 down, 0 VT
+[INFO RSZ-0043] Swapped pins on 8 instances.
+[WARNING RSZ-0062] Unable to repair all setup violations.
+[INFO RSZ-0033] No hold violations found.

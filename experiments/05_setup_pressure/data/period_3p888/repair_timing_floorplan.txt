@@ -1,0 +1,14 @@
+repair_timing -setup_margin 0 -hold_margin 0 -repair_tns 100 -match_cell_footprint -setup -skip_last_gasp -sequence unbuffer,sizeup,swap,vt_swap -verbose
+[WARNING EST-0027] no estimated parasitics. Using wire load models.
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove 
+[INFO RSZ-0094] Found 1 endpoints with setup violations.
+[INFO RSZ-0099] Repairing 1 out of 1 (100.00%) violating endpoints...
+   Iter   | Removed | Resized | Inserted | Cloned |  Pin  |   Area   |    WNS   |   StTNS    |   EnTNS    |  Viol  |  Worst  
+          | Buffers |  Gates  | Buffers  |  Gates | Swaps |          |          |            |            | Endpts | St/EnPt 
+------------------------------------------------------------------------------------------------------------------------------
+       0* |       0 |       0 |        0 |      0 |     0 |    +0.0% |   -0.066 |       -0.1 |       -0.1 |      1 | y\[31\]$_SDFF_PN0_/D
+       2* |       0 |       1 |        0 |      0 |     0 |    +0.0% |    0.012 |        0.0 |        0.0 |      1 | y\[31\]$_SDFF_PN0_/D
+       2* |       0 |       1 |        0 |      0 |     0 |    +0.0% |    0.012 |        0.0 |        0.0 |      1 | y\[31\]$_SDFF_PN0_/D
+    final |       0 |       1 |        0 |      0 |     0 |    +0.0% |    0.012 |        0.0 |        0.0 |      0 | y\[31\]$_SDFF_PN0_/D
+------------------------------------------------------------------------------------------------------------------------------
+[INFO RSZ-0051] Resized 1 instances: 1 up, 0 up match, 0 down, 0 VT

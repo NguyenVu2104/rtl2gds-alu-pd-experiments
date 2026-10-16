@@ -1,0 +1,42 @@
+2_floorplan_final.rpt:tns max -0.06
+2_floorplan_final.rpt:wns max -0.06
+2_floorplan_final.rpt:worst slack max -0.06
+2_floorplan_final.rpt:floorplan final report_clock_min_period
+2_floorplan_final.rpt---------------------------------------------------------------------------
+2_floorplan_final.rpt-clk period_min = 3.46 fmax = 289.25
+3_global_place.rpt:tns max -0.17
+3_global_place.rpt:wns max -0.17
+3_global_place.rpt:worst slack max -0.17
+3_global_place.rpt:global place report_clock_min_period
+3_global_place.rpt---------------------------------------------------------------------------
+3_global_place.rpt-clk period_min = 3.57 fmax = 279.79
+3_resizer.rpt:tns max -0.17
+3_resizer.rpt:wns max -0.17
+3_resizer.rpt:worst slack max -0.17
+3_resizer.rpt:resizer report_clock_min_period
+3_resizer.rpt---------------------------------------------------------------------------
+3_resizer.rpt-clk period_min = 3.57 fmax = 279.79
+3_detailed_place.rpt:tns max -0.27
+3_detailed_place.rpt:wns max -0.22
+3_detailed_place.rpt:worst slack max -0.22
+3_detailed_place.rpt:detailed place report_clock_min_period
+3_detailed_place.rpt---------------------------------------------------------------------------
+3_detailed_place.rpt-clk period_min = 3.62 fmax = 276.07
+4_cts_final.rpt:tns max -0.09
+4_cts_final.rpt:wns max -0.09
+4_cts_final.rpt:worst slack max -0.09
+4_cts_final.rpt:cts final report_clock_min_period
+4_cts_final.rpt---------------------------------------------------------------------------
+4_cts_final.rpt-clk period_min = 3.50 fmax = 286.09
+5_global_route.rpt:tns max -0.16
+5_global_route.rpt:wns max -0.15
+5_global_route.rpt:worst slack max -0.15
+5_global_route.rpt:global route report_clock_min_period
+5_global_route.rpt---------------------------------------------------------------------------
+5_global_route.rpt-clk period_min = 3.55 fmax = 281.59
+6_finish.rpt:tns max 0.00
+6_finish.rpt:wns max 0.00
+6_finish.rpt:worst slack max 0.04
+6_finish.rpt:finish report_clock_min_period
+6_finish.rpt---------------------------------------------------------------------------
+6_finish.rpt-clk period_min = 3.36 fmax = 297.45

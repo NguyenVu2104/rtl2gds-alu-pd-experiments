@@ -1,0 +1,30 @@
+2_floorplan_final.rpt:tns max 0.00
+2_floorplan_final.rpt:wns max 0.00
+2_floorplan_final.rpt:worst slack max 0.42
+2_floorplan_final.rpt:floorplan final report_clock_min_period
+2_floorplan_final.rpt---------------------------------------------------------------------------
+2_floorplan_final.rpt-clk period_min = 3.95 fmax = 252.94
+3_global_place.rpt:tns max 0.00
+3_global_place.rpt:wns max 0.00
+3_global_place.rpt:worst slack max 0.46
+3_global_place.rpt:global place report_clock_min_period
+3_global_place.rpt---------------------------------------------------------------------------
+3_global_place.rpt-clk period_min = 3.91 fmax = 255.76
+3_resizer.rpt:tns max 0.00
+3_resizer.rpt:wns max 0.00
+3_resizer.rpt:worst slack max 0.46
+3_resizer.rpt:resizer report_clock_min_period
+3_resizer.rpt---------------------------------------------------------------------------
+3_resizer.rpt-clk period_min = 3.91 fmax = 255.76
+3_detailed_place.rpt:tns max 0.00
+3_detailed_place.rpt:wns max 0.00
+3_detailed_place.rpt:worst slack max 0.34
+3_detailed_place.rpt:detailed place report_clock_min_period
+3_detailed_place.rpt---------------------------------------------------------------------------
+3_detailed_place.rpt-clk period_min = 4.03 fmax = 248.13
+4_cts_final.rpt:tns max 0.00
+4_cts_final.rpt:wns max 0.00
+4_cts_final.rpt:worst slack max 0.31
+4_cts_final.rpt:cts final report_clock_min_period
+4_cts_final.rpt---------------------------------------------------------------------------
+4_cts_final.rpt-clk period_min = 4.06 fmax = 246.15
