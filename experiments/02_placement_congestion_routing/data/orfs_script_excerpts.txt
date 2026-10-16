@@ -1,0 +1,31 @@
+=== final_report.tcl lines 1 to 5 (the design loaded before the images are made)
+utl::set_metrics_stage "finish__{}"
+source $::env(SCRIPTS_DIR)/load.tcl
+erase_non_stage_variables final
+load_design 6_1_fill.odb 6_1_fill.sdc
+source_step_tcl PRE FINAL_REPORT
+=== final_report.tcl lines 69 to 72 (where save_images.tcl is called)
+# Save a final image if openroad is compiled with the gui
+if { [ord::openroad_gui_compiled] } {
+  gui::show "source $::env(SCRIPTS_DIR)/save_images.tcl" false
+}
+=== save_images.tcl lines 104 to 112 (the congestion image)
+# The routing congestion view
+gui::set_display_controls "Instances/*" visible true
+gui::set_display_controls "Instances/Physical/*" visible false
+gui::set_display_controls "Nets/*" visible false
+gui::set_display_controls "Heat Maps/Routing Congestion" visible true
+
+save_image -resolution $resolution $::env(REPORTS_DIR)/final_congestion.webp
+
+# The worst timing path view
+=== sha1 of 5_3_fillcell.odb and 6_1_fill.odb in the logs of each run (same value means same file)
+-- base
+5_3_fillcell              .odb            0            122 c2665fe1847a2107489a
+6_1_fill                  .odb            0            118 c2665fe1847a2107489a
+-- utilization_60
+5_3_fillcell              .odb            0            123 d1e8c6368b95b2b20b63
+6_1_fill                  .odb            0            119 d1e8c6368b95b2b20b63
+-- utilization_75
+5_3_fillcell              .odb            0            122 2ac107a457578c9162c1
+6_1_fill                  .odb            0            119 2ac107a457578c9162c1

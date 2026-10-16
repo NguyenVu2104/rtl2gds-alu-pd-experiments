@@ -30,6 +30,8 @@ Command for utilization_75 (the other runs change `FLOW_VARIANT` and `CORE_UTILI
 - `data/utilization_75/routability_round.txt`: the only routability round of utilization_75 (global placement log).
 - `data/utilization_75/def_evidence.txt`: PDN stripes and met5 wires from the final DEF.
 - `data/utilization_75/gui/`: heatmap screenshots, taken from `5_1_grt.odb`.
+- `data/<run>/final_congestion.png`: the congestion image saved by ORFS at the end of each run.
+- `data/orfs_script_excerpts.txt`: the ORFS script lines that make `final_congestion.png`, and the checksums of `5_3_fillcell.odb` and `6_1_fill.odb`.
 
 ## 1. Floorplan
 
@@ -118,17 +120,30 @@ All three runs end with 0 violations. The base log has a second `detailed_route`
 
 Most violations are Short and Metal Spacing on met1.
 
-## 6. Heatmaps (utilization_75, `5_1_grt.odb`)
+## 6. Heatmaps
+### The three runs at the end of the flow
 
-The screenshots come from the OpenROAD GUI (`gui_grt`). The heatmap is "Routing Congestion" on a 6.9 µm grid (16 x 16 tiles). The option Type has three choices: congestion, capacity and usage. Colors were read by eye against the legend of each image, so the percentages are rough.
+At the end of each run ORFS saves an image of the Routing Congestion heatmap (`final_congestion.webp`). `final_report.tcl` calls `save_images.tcl` to make it. The three images below were made by the same script from `6_1_fill.odb`, which is loaded in line 4 of `final_report.tcl` (`data/orfs_script_excerpts.txt`). The script only turns the heatmap on and saves the image, so the options are the GUI defaults: Direction All, Layer All, Type Congestion, scale 0% to 100%. The scale was never changed, so the colors can be compared across the three runs. The images have no legend: red means more congested.
 
-### met2: the most congested layer
+| base (utilization 40) | utilization_60 | utilization_75 |
+|---|---|---|
+| ![base final congestion](data/base/final_congestion.png) | ![utilization_60 final congestion](data/utilization_60/final_congestion.png) | ![utilization_75 final congestion](data/utilization_75/final_congestion.png) |
+
+The three images have the same size in pixels, so the die is scaled to fit. The real die side is 152.385, 125.155 and 112.365 µm. The tile is 6.9 µm in all runs, so the number of tiles per side is 22, 18 and 16. The placer estimate gives the same counts: the overflowed tiles of round 1 (`GPL-0042`) are 18 tiles = 3.72% in base, 41 tiles = 12.65% in utilization_60 and 57 tiles = 22.27% in utilization_75, so the totals are 484 = 22 x 22, 324 = 18 x 18 and 256 = 16 x 16.
+
+Read by eye: in base the red tiles form a cluster in the middle and the middle-right of the core. In utilization_60 the red covers most of the inside of the core. In utilization_75 almost the whole inside is red and dark red. In all three runs the outer ring of tiles is green or teal.
+
+### utilization_75, layer by layer
+
+The screenshots in this part are for utilization_75 only. They come from the OpenROAD GUI (`gui_grt`, file `5_1_grt.odb`). The heatmap is "Routing Congestion" on a 6.9 µm grid (16 x 16 tiles). The option Type has three choices: congestion, capacity and usage. Colors were read by eye against the legend of each image, so the percentages are rough.
+
+#### met2: the most congested layer
 
 ![met2 congestion](data/utilization_75/gui/met2_congestion.png)
 
 met2 is mostly red and dark red inside the core, the most of all layers. This fits its 74.34% usage in `GRT-0096`.
 
-### met4: the PDN stripes and the capacity
+#### met4: the PDN stripes and the capacity
 
 ![met4 congestion](data/utilization_75/gui/met4_congestion.png)
 
@@ -138,7 +153,7 @@ On met4 the hot tiles are in the middle of the core and a bit to the right.
 
 The capacity of met4 alternates by tile column. The PDN stripes on met4 are at x = 15.87, 29.44, 43.01, 56.58, 70.15, 83.72 and 97.29 µm (`data/utilization_75/def_evidence.txt`). Divided by the tile size 6.9 µm, these are tile columns 2, 4, 6, 8, 10, 12 and 14 (counted from 0). These columns look lower in capacity (about 6-7% on the legend) than the odd columns (about 8-9%). The stripe width is 1.6 µm, which is 23% of a tile, the same order as the drop.
 
-### met5: one signal wire and the PDN stripes
+#### met5: one signal wire and the PDN stripes
 
 | Congestion | Capacity | Usage |
 |---|---|---|
@@ -157,6 +172,7 @@ There is one dark red block of 8 tiles: 6 tiles in one row and 2 tiles in the ro
 - The placer congestion estimate follows the same order as the real result, but it reports overflow where the global router finds none.
 - Detailed routing reaches 0 violations in all runs, but it starts with more violations as the floorplan gets tighter (1207, 1371, 1716).
 - On met4, the tile columns with PDN stripes seem to have lower capacity.
+- In the end-of-flow heatmaps the congested area grows from a cluster in the middle (base) to almost the whole inside of the core (utilization_75). This is read by eye.
 
 ## Questions
 
@@ -173,3 +189,5 @@ What do the usage and capacity values of the heatmap measure? On met5 the legend
 The only met5 signal wire in the final DEF lies under the 6 tiles of the upper row of the dark red block on met5. What explains the 2 tiles of the lower row?
 
 Is `congestion.rpt` written only when there is real overflow? No run here had overflow.
+
+`final_congestion.png` is made from `6_1_fill.odb`, the design after detailed routing and fill. Is the congestion data in this ODB the one from global routing (stage 5_1), or is it updated after detailed routing?
